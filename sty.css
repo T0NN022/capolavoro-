@@ -1,0 +1,458 @@
+body{
+  width: 100vw;
+  overflow-x:hidden ;
+}
+::-webkit-scrollbar{
+display: none;
+background-color: transparent;
+overflow-y: hidden;
+
+}
+.sfondo {
+  width: 101%;
+  margin-right: -1%;
+  margin-top:-1%;
+
+}
+div a {
+    
+  color :white;
+  text-decoration: none;
+  text-align: right;}
+body{
+  margin: -1%;
+}
+.menu_other{display: flex;
+  
+  justify-content: space-around;
+  background-color:#353d48;
+  padding: 40px 0;
+  border-bottom: 2px solid #463333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;}
+#menu{
+
+  display: flex;
+ justify-content: space-around;
+ background-color:transparent;
+ padding: 40px 0;
+ border-bottom: 2px solid #fff;
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 1000;
+ transition: background-color 0.3s ease;
+ 
+}
+#menu.scuro {
+  background-color:#353d48; 
+}
+.front_logo{
+  position: absolute;
+  left :4%;
+  top:12%
+
+}
+
+.titolo{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 50px;
+  position: absolute;
+  left: 10%;
+  top:23%
+}
+.opzioni{
+
+  
+  
+
+.opzioni1{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top:3%;
+  right:40%;
+  
+}
+
+.opzioni2{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+  position: fixed;
+  top:3%;
+  right:26%;
+ 
+  
+  
+}
+
+.opzioni3{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+  position: fixed;
+  top:3%;
+  right:16%;
+  
+ 
+}
+
+.opzioni4{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 30px;
+  position: fixed;
+  top:3%;
+  right:3%;
+  
+}}
+
+#cit{
+
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 27px;
+  position : absolute;
+  padding :20px;
+  bottom :20%;
+  right:60%;
+  left:2%;
+
+}
+
+.int-background{
+width: 300%;
+position :absolute ; 
+top : -45%;
+left:-20%;
+right: 30%;
+
+}
+#int{
+  font-size: 22px;
+  font-family: 'Lucida Sans';
+  color :whitesmoke;
+  position :absolute;
+  top :140%;
+  right:60%;
+  left:2%;
+}
+
+titoli_menu{
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', serif;
+}
+menu{
+  font-size:18px ;
+  font-family: 'Lucida Sans' sans-serif;
+  text-align: left;
+}
+
+#cont1 {
+  margin-top: 50%;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+}
+
+#cont2{
+  width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+}
+
+#cont3 {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+}
+
+#cont4 {
+  width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+}
+#cont5 {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+ 
+}
+
+
+.testo-storia2{
+  font-size: 20px;
+}
+
+
+
+#sott_title{
+
+  font-size: 20px;
+  font-family: 'Lucida Sans';
+  text-align: center;
+  line-height: 0.2px;
+  
+
+  
+
+}
+
+
+
+.tit_pizze_special{
+  font-family:  Helvetica;
+  font-size: 25px;
+}
+
+.testo_pizze_special{
+  color: black;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 25px;
+}
+
+#pizza_parmigiana{
+
+  width: 40%;
+  height: 40%;
+  border-radius: 5%;
+  float: left;
+  position: relative;
+  
+  margin-top: 6%;
+ 
+  margin-left: 4%;
+  
+}
+
+#test_pizza_parmigiana{
+  position: relative;
+  left: 10%;
+  margin-right: 35%;
+  margin-top: 6%; 
+  white-space:nowrap;
+
+   
+}
+
+#test_pizza_parmigiana1{
+ 
+  position: relative;
+  left: 10%;
+  margin-right: 27%;
+  margin-top: 54;
+  text-align: justify;
+ }
+
+#pizza_prosciutto_grana_contemporanea{
+
+  
+  width: 40%;
+  height: 40%;
+  border-radius: 5%;
+  float: right;
+  position: relative;
+  margin-top: 15%;
+  margin-right: 4%;
+  
+  
+}
+
+#pizza_prosciutto{
+  
+  left: 10%;
+  padding: 2%;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+
+#pizza_prosciutto1{
+
+  position: relative;
+  left: 10%;
+  margin-left: 1%;
+  margin-right: 63%;
+  margin-top: 2%;
+  text-align: justify;
+
+}
+
+#pizza_americana_contemporanea{
+  max-width:100%;
+  height: auto;
+  border-radius: 5%;
+  float: left;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 4%;
+}
+#pizza_americana{
+  position: relative;
+  left: 10%;
+  margin-right: 35%;
+  margin-top: 20%;
+  white-space:nowrap;
+}
+
+#pizza_americana1{
+  
+  position: relative;
+  left: 10%;
+  margin-right: 20%;
+  margin-top: 6%;
+  text-align: justify;
+}
+
+#tit_recensioni{
+  position: static;
+ 
+  margin-top: 40%;
+  text-align: center;
+  
+  
+}
+
+#recensione1{
+  text-align: justify;
+  background-color: #f8f8f8; /* Colore di sfondo */
+  padding: 20px; /* Spazio interno */
+  border-radius: 10px; /* Bordo arrotondato */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra */
+  margin-bottom: 20px; /* Margine inferiore */
+  font-size: 20px;
+  font-family:Calibri;
+  float: right;
+  margin-right: 30%;
+  margin-left: 5%;
+  
+}
+
+#n_recensione1{
+  text-align: justify;
+  position: relative;
+  left:1%;
+  margin-top: 17.5%;
+  font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.avatar{
+  float: left;
+  margin-left:5%
+}
+#recensione2{
+  text-align: justify;
+  background-color: #f8f8f8; /* Colore di sfondo */
+  padding: 20px; /* Spazio interno */
+  border-radius: 10px; /* Bordo arrotondato */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombra */
+  margin-bottom: 20px; /* Margine inferiore */
+  font-size: 20px;
+  font-family:Calibri;
+  float: right;
+  margin-right: 30%;
+  margin-left: 5%;
+  
+}
+
+#n_recensione2{
+  position: relative;
+  left:1%;
+  margin-top: 17.5%;
+  font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.avatar{
+  float: left;
+  margin-left:5%
+}
+
+#recensione3{
+  text-align: justify;
+  background-color: #f8f8f8; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 20px; 
+  font-size: 20px;
+  font-family:Calibri;
+  float: right;
+  margin-right: 30%;
+  margin-left: 5%;
+  
+}
+
+#n_recensione3{
+  
+  position: relative;
+  left:1%;
+  margin-top: 17.5%;
+  font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.avatar{
+  float: left;
+  margin-left:5%
+}
+
+#schermata_menu{
+  width: 2%;
+  height: 2%;
+}
+.footer{
+  margin-top: 5%;
+  background-color: #353d48; 
+  padding: 2%; 
+  color: #fff;
+  width: 105%;
+
+}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.column {
+    flex: 1; 
+    padding: 10px;
+    
+}
+
+#social{
+  font-size: 20px;
+  font-family:  Helvetica;
+  font-weight: bold;
+}
+
+
+
